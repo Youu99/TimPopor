@@ -1,0 +1,1923 @@
+@media (max-width:999px) and (min-width:765px){
+  /*slider*/
+  #wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#slider {
+    width: 100%;
+    margin: 0 auto;
+    height: 650px;
+    position: relative;
+    background-image: url(../img/슬라이더배경3.png);
+    background-size: cover;
+}
+
+#slider .slider1 {
+    width: 100%;
+    float: right;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+.sliderbox_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    /* overflow: hidden; */
+}
+#slider .slider1 .slider_tull {
+    width: 400%;
+    height: 100%;
+    display: flex;
+    /* overflow: hidden; */
+}
+#slider .slider1 .textbox .btn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: #FFFC9B;
+    margin: 2%;
+    position: relative;
+    /* left: 5%; */
+    /* top: 5%; */
+    bottom: 3%;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #4a4a4a;
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 0 #B7E5B4;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+#slider .slider1 .textbox .btn:hover{
+    color: white;
+    box-shadow: inset 250px 0 0 0 #B7E5B4;
+}
+#slider .slider1 .textbox .arrow {
+    color: #F28585;
+    position: absolute;
+    bottom: -23px;
+    right: -50px;
+    font-size: 4.2em;
+    font-weight: lighter;
+    /* top: 5%; */
+}
+.sliderbox_1 .textbox h1 {
+    font-size: 3.7em;
+    text-align: left;
+    color: #090909;
+    /* white-space: nowrap; */
+    /* padding-bottom: 10%; */
+}
+
+#slider .slider1 .textbox p {
+    font-size: 1.2em;
+    text-align: left;
+    color: #747474;
+    line-height: 50px;
+}
+
+
+#slider .slider1 .textbox {
+    width: 30%;
+    /* background: orchid; */
+    height: 600px;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#slider .btn2 {
+    background: var(--orange);
+    width: 115px;
+    height: 115px;
+    border-radius: 100px;
+    position: absolute;
+    left: 28%;
+    bottom: 0;
+    top: 73%;
+    cursor: pointer;
+    border: none;
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.4);
+}
+#slider .btn2:hover{
+    background: #dddddd;
+    opacity: 0.9;
+}
+
+#slider button span {
+    font-size: 5em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative;
+    /* left: 3%; */
+    /* top: 5%; */
+    bottom: 3%;
+}
+
+#slider .slider1 .slide {
+    width: 64%;
+    float: right;
+    height: 500px;
+    /* margin-top: 2%; */
+
+}
+
+#slider .slider1 .slide img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.2);
+}
+/*page1*/
+#page1 {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-top: 100px;
+}
+
+#hokkaido {
+    width: 100%;
+    height: 500px;
+    background: white;
+    /* margin: 1%; */
+    display: flex;
+    float: left;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* margin-left: 5%; */
+
+
+}
+#hokkaido .icon h4 {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#hokkaido .icon p {
+    color: #747474;
+    font-size: 0.9em;
+}
+
+#hokkimg {
+    width: 100%;
+    height: 100%;
+    /* margin: 1%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+#hokkimg img {
+    width: 100%;
+    height: 100%;
+}
+/*애니메이션*/
+:is(.one, .fin1, .three, .fin2, .four, .fin3, .five, .fin4, .two){
+    animation: fadeInLeft 2s;
+    animation-fill-mode: both;
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+.imgbox {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*첫번째*/
+.one{
+    width: 350px;
+    height: 300px;
+}
+.one img {
+    width: 100%;
+    height: 100%;
+    animation-delay: 0.5s;
+}
+.fin1 {
+    position: relative;
+    /* left: 1%; */
+    bottom: 32%;
+    animation-delay: 1s;
+    width: 60px;
+    height: 60px;
+}
+.fin1 img{
+    width: 100%;
+    height: 100%;
+}
+.imgbox h4 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #747474;
+    text-align: center;
+    white-space:nowrap;
+}
+/*하코다테*/
+/*두번째*/
+.two {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    left: 50px;
+    align-items: center;
+    justify-content: center;
+    animation-delay: 4.5s;
+    
+    
+}
+.fin2 {
+    position: relative;
+    left: 20%;
+    bottom: 82%;
+    animation-delay: 2s;
+    width: 60px;
+    height: 60px;
+}
+.fin2 img{
+    width: 100%;
+    height: 100%;
+}
+/*삿포로*/
+/*세번째*/
+.three {
+    width: 33.3%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-delay: 1.5s;
+}
+.fin3 {
+    position: relative;
+    left: 35%;
+    bottom: 120%;    
+    animation-delay: 3s;
+    width: 60px;
+    height: 60px;
+}
+.fin3 img{
+    width: 100%;
+    height: 100%;
+}
+/*아사히야마*/
+/*네번째*/
+.four {
+    width: 33.3%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-delay: 2.5s;
+}
+.fin4 {
+    position: relative;
+    left: 55%;
+    bottom: 127%;    
+    animation-delay: 4s;
+    width: 60px;
+    height: 60px;
+}
+.fin4 img{
+    width: 100%;
+    height: 100%;
+}
+/*구시로*/
+/*다섯번째*/
+.five {
+    width: 33.3%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-delay: 3.5s;
+}
+
+.box_flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.more {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 15%;
+    /* top: 8%; */
+    display: none;
+}
+.tttt{
+    position: relative;
+    /* top: 10%; */
+    left: 5%;
+    font-size: 1.1em;
+}
+.hotel_mini {
+    width: 25px;
+    height: 25px;
+}
+.ryokan_mini{
+    width: 25px;
+    height: 25px;
+}
+.in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+}
+.in p {
+    font-size: 0.9em;
+    white-space: nowrap;
+    text-align: center;
+}
+
+
+/*hokkaido_sub*/
+#hokkaido_sub {
+    width: 95%;
+    height: 700px;
+    background-image: url(../img/홋카이도배경2.png);
+    background-size: cover;
+    background-position: center;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    border: 3px solid #FFFC9B;
+}
+/*hokkaido_sub2*/
+#hokkaido_sub2 {
+    width: 95%;
+    height: 700px;
+    background-image: url(../img/간사이배경.png);
+    background-size: cover;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    border: 3px solid #FFFC9B;
+}
+/*hokkaido_sub3*/
+#hokkaido_sub3 {
+    width: 95%;
+    height: 700px;
+    background-image: url(../img/간토배경.png);
+    background-size: cover;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    border: 3px solid #FFFC9B;
+}
+/*hokkaido_sub4*/
+#hokkaido_sub4 {
+    width: 95%;
+    height: 700px;
+    background-image: url(../img/규슈배경.png);
+    background-size: cover;
+    background-position: center;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    border: 3px solid #FFFC9B;
+}
+.minibox1 {
+    width: 44%;
+    height: 240px;
+    /* background: aqua; */
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    line-height: 20px;
+    border: 5px solid #FFFC9B;
+}
+.minibox1:hover {
+    /* color: white; */
+    background: #FFFC9B;;
+}
+
+.minibox1 .icon:hover {
+    filter: invert(60%) sepia(65%) saturate(5176%) hue-rotate(321deg) brightness(134%) contrast(98%);
+}
+
+    .minibox1 .icon {
+    text-align: center;
+}
+.minibox1 .icon img {
+    width: 75px;
+    height: 75px;
+    /* paddin-bottom: 10px; */
+}
+.minibox1 .icon .ryokan {
+    width: 20px;
+    height: 20px;
+
+}
+/*간사이 애니메이션*/
+:is(.fin-1, .fin-2, .fin-3, .fin-4, .fin-5, .fin-6, .fin-7, .gan1, .gan2, .gan3, .gan4, .gan5, .gan6, .gan7, .gan8){
+    animation: fadeInLeft 2s;
+    animation-fill-mode: both;
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+/*간사이*/
+.gan1{
+    width: 310px;
+    height: 290px;
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gan1 img {
+    width: 100%;
+    height: 100%;
+    animation-delay: 0.5s;
+}
+.gan2 {
+    width: 130px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    animation-delay: 1.5s;
+}
+
+.gan3 {
+    width: 130px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 2.5s;
+}
+.gan4 {
+    width: 130px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 3.5s;
+}
+.gan5 {
+    width: 150px;
+    height: 380px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 4.5s;
+    padding-left: 50px;
+}
+.gan6 {
+    width: 150px;
+    height: 380px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 5.5s;
+}
+.gan7 {
+    width: 150px;
+    height: 380px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 6.5s;
+}
+.gan8 {
+    width: 150px;
+    height: 380px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 7.5s;
+}
+/*간사이 지역 핀*/
+/*와카야마*/
+.fin-1 {
+    position: relative;
+    left: 30%;
+    bottom: 42%;
+    animation-delay: 1s;
+    width: 50px;
+    height: 50px;
+}
+.fin-1 img{
+    width: 100%;
+    height: 100%;
+}
+/*나라*/
+.fin-2 {
+    position: relative;
+    left: 34%;
+    bottom: 55%;
+    animation-delay: 2s;
+    width: 50px;
+    height: 50px;
+}
+.fin-2 img{
+    width: 100%;
+    height: 100%;
+}
+/*미에*/
+.fin-3 {
+    position: relative;
+    left: 40%;
+    bottom: 69%;
+    animation-delay: 3s;
+    width: 50px;
+    height: 50px;
+}
+.fin-3 img{
+    width: 100%;
+    height: 100%;
+}
+/*오사카*/
+.fin-4 {
+    position: relative;
+    right: 10%;
+    bottom: 70%;
+    animation-delay: 4s;
+    width: 50px;
+    height: 50px;
+}
+.fin-4 img{
+    width: 100%;
+    height: 100%;
+}
+/*시가*/
+.fin-5 {
+    position: relative;
+    right: 10%;
+    bottom: 90%;
+    animation-delay: 5s;
+    width: 50px;
+    height: 50px;
+}
+.fin-5 img{
+    width: 100%;
+    height: 100%;
+}
+/*교토*/
+.fin-6 {
+    position: relative;
+    right: 50%;
+    bottom: 100%;
+    animation-delay: 6s;
+    width: 50px;
+    height: 50px;
+}
+.fin-6 img{
+    width: 100%;
+    height: 100%;
+}
+/*효고*/
+.fin-7 {
+    position: relative;
+    left: 10%;
+    bottom: 102%;
+    animation-delay: 7s;
+    width: 50px;
+    height: 50px;
+}
+.fin-7 img{
+    width: 100%;
+    height: 100%;
+}
+/*간토 애니메이션*/
+:is(.fine1, .fine2, .fine3, .fine4, .fine5, .fine6, .fine7, .ganto1, .ganto2, .ganto3, .ganto4, .ganto5, .ganto6, .ganto7, .ganto8){
+    animation: fadeInLeft 2s;
+    animation-fill-mode: both;
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+/*간토*/
+.ganto1{
+    width: 40%;
+    height: 250px;
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ganto1 img {
+    width: 100%;
+    height: 100%;
+    animation-delay: 0.5s;
+}
+.ganto2 {
+    width: 20%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    animation-delay: 1.5s;
+}
+
+.ganto3 {
+    width: 20%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 2.5s;
+}
+.ganto4 {
+    width: 20%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 3.5s;
+}
+.ganto5 {
+    width: 22%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 4.5s;
+    padding-left: 30px;
+}
+.ganto6 {
+    width: 22%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 5.5s;
+}
+.ganto7 {
+    width: 22%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 6.5s;
+}
+.ganto8 {
+    width: 22%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 7.5s;
+}
+/*간토 지역 핀*/
+/*가나가와*/
+.fine1 {
+    position: absolute;
+    left: 28%;
+    bottom: 25%;
+    animation-delay: 1s;
+    width: 50px;
+    height: 50px;
+}
+.fine1 img{
+    width: 100%;
+    height: 100%;
+}
+/*도쿄*/
+.fine2 {
+    position: absolute;
+    left: 20%;
+    bottom: 43%;
+    animation-delay: 2s;
+    width: 50px;
+    height: 50px;
+}
+.fine2 img{
+    width: 100%;
+    height: 100%;
+}
+/*사이타마*/
+.fine3 {
+    position: absolute;
+    left: 10%;
+    bottom: 52%;
+    animation-delay: 3s;
+    width: 50px;
+    height: 50px;
+}
+.fine3 img{
+    width: 100%;
+    height: 100%;
+}
+/*군마*/
+.fine4 {
+    position: absolute;
+    left: 5%;
+    bottom: 75%;
+    animation-delay: 4s;
+    width: 50px;
+    height: 50px;
+}
+.fine4 img{
+    width: 100%;
+    height: 100%;
+}
+/*도치기*/
+.fine5 {
+    position: absolute;
+    right: 40%;
+    bottom: 70%;
+    animation-delay: 5s;
+    width: 50px;
+    height: 50px;
+}
+.fine5 img{
+    width: 100%;
+    height: 100%;
+}
+/*이바라키*/
+.fine6 {
+    position: absolute;
+    right: 15%;
+    bottom: 60%;
+    animation-delay: 6s;
+    width: 50px;
+    height: 50px;
+}
+.fine6 img{
+    width: 100%;
+    height: 100%;
+}
+/*치바*/
+.fine7 {
+    position: absolute;
+    left: 52%;
+    bottom: 25%;
+    animation-delay: 7s;
+    width: 50px;
+    height: 50px;
+}
+.fine7 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*규슈 애니메이션*/
+:is(.fin_1, .fin_2, .fin_3, .fin_4, .fin_5, .fin_6, .fin_7, .gu1, .gu2, .gu3, .gu4, .gu5, .gu6, .gu7, .gu8){
+    animation: fadeInLeft 2s;
+    animation-fill-mode: both;
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+/*규슈 호버클릭*/
+.gu1{
+    width: 40%;
+    height: 250px;
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gu1 img {
+    width: 100%;
+    height: 100%;
+    animation-delay: 0.5s;
+}
+.gu2 {
+    width: 20%;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    animation-delay: 1.5s;
+}
+
+.gu3 {
+    width: 20%;
+    height: auto;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 2.5s;
+}
+.gu4 {
+    width: 20%;
+    height: auto;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 3.5s;
+}
+.gu5 {
+    width: 24%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 4.5s;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.gu6 {
+    width: 22%;
+    height: 380px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 5.5s;
+}
+.gu7 {
+    width: 22%;
+    height: 380px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 6.5s;
+}
+.gu8 {
+    width: 22%;
+    height: 380px;
+    display: flex;
+    position: relative;
+    /* left: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation-delay: 7.5s;
+}
+.dot {
+    position: relative;
+    width: 100px;
+    height: 60px;
+    left: 8%;
+    display: none;
+    /* top: 8%; */
+}
+.tttt2{
+    font-size: 1em;
+    text-align: center;
+}
+
+/*규슈 지역 핀*/
+
+/*가고시마*/
+.fin_1 {
+    position: absolute;
+    left: 30%;
+    bottom: 22%;
+    animation-delay: 1s;
+    width: 50px;
+    height: 50px;
+}
+.fin_1 img{
+    width: 100%;
+    height: 100%;
+}
+/*구마모토*/
+.fin_2 {
+    position: absolute;
+    left: 40%;
+    bottom: 52%;
+    animation-delay: 2s;
+    width: 50px;
+    height: 50px;
+}
+.fin_2 img{
+    width: 100%;
+    height: 100%;
+}
+/*미야자키*/
+.fin_3 {
+    position: absolute;
+    left: 60%;
+    bottom: 32%;
+    animation-delay: 3s;
+    width: 50px;
+    height: 50px;
+}
+.fin_3 img{
+    width: 100%;
+    height: 100%;
+}
+/*오이타*/
+.fin_4 {
+    position: absolute;
+    left: 60%;
+    bottom: 70%;
+    animation-delay: 4s;
+    width: 50px;
+    height: 50px;
+}
+.fin4 img{
+    width: 100%;
+    height: 100%;
+}
+/*후쿠오카*/
+.fin_5 {
+    position: absolute;
+    left: 35%;
+    bottom: 80%;
+    animation-delay: 5s;
+    width: 50px;
+    height: 50px;
+}
+.fin_5 img{
+    width: 100%;
+    height: 100%;
+}
+/*사가*/
+.fin_6 {
+    position: absolute;
+    left: 15%;
+    bottom: 80%;
+    animation-delay: 6s;
+    width: 50px;
+    height: 50px;
+}
+.fin_6 img{
+    width: 100%;
+    height: 100%;
+}
+/*나가사키*/
+.fin_7 {
+    position:absolute;
+    left: 10%;
+    bottom: 52%;
+    animation-delay: 7s;
+    width: 50px;
+    height: 50px;
+}
+.fin_7 img{
+    width: 100%;
+    height: 100%;
+}
+.hotel_mini1 {
+    width: 20px;
+    height: 20px;
+}
+.ryokan_mini1{
+    width: 20px;
+    height: 20px;
+}
+/*minibox2*/
+.minibox2 {
+    width: 44%;
+    height: 240px;
+    /* background: aqua; */
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    line-height: 20px;
+    border: 5px solid #FFFC9B;
+}
+.minibox2:hover {
+    /* color: white; */
+    background: #FFFC9B;
+}
+
+.minibox2 .icon:hover {
+    filter: invert(60%) sepia(65%) saturate(5176%) hue-rotate(321deg) brightness(134%) contrast(98%);
+}
+.minibox2 .icon {
+    text-align: center;
+}
+.minibox2 .icon img {
+    width: 75px;
+    height: 75px;
+    /* paddin-bottom: 10px; */
+}
+.minibox2 .icon .ryokan {
+    width: 20px;
+    height: 20px;
+
+}
+/*minibox3*/
+.minibox3 {
+    width: 44%;
+    height: 240px;
+    /* background: aqua; */
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    line-height: 20px;
+    border: 5px solid #FFFC9B;
+}
+.minibox3:hover {
+    /* color: white; */
+    background: #FFFC9B;;
+}
+
+.minibox3 .icon:hover {
+    filter: invert(60%) sepia(65%) saturate(5176%) hue-rotate(321deg) brightness(134%) contrast(98%);
+}
+.minibox3 .icon {
+    text-align: center;   
+}
+.minibox3 .icon img {
+    width: 75px;
+    height: 75px;
+    
+    /* paddin-bottom: 10px; */
+}
+.minibox3 .icon .ryokan {
+    width: 20px;
+    height: 20px;
+
+}
+/*minibox4*/
+.minibox4 {
+    width: 44%;
+    height: 240px;
+    /* background: aqua; */
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    line-height: 20px;
+    border: 5px solid #FFFC9B;
+}
+.minibox4:hover {
+    /* color: white; */
+    background: #FFFC9B;;
+}
+
+.minibox4 .icon:hover {
+    filter: invert(60%) sepia(65%) saturate(5176%) hue-rotate(321deg) brightness(134%) contrast(98%);
+}
+.minibox4 .icon {
+    text-align: center;
+}
+.minibox4 .icon img {
+    width: 75px;
+    height: 75px;
+    /* paddin-bottom: 10px; */
+}
+.minibox4 .icon .ryokan {
+    width: 20px;
+    height: 20px;
+
+}
+
+/*page2*/
+#page2 {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+
+#background{
+    width: 100%;
+    height: 190px;
+    background: url(../img/background2.png);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+#background h3 {
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+#background p {
+    padding-top: 10px;
+    font-size: 1em;
+}
+
+.tull {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 0.95em;
+    /* margin-top: 40px; */
+}
+
+.tull>.tull button {
+    display: inline-block;
+}
+
+.tull button {
+    all: unset;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 90px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.tull button {
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.tull button:last-child {
+    margin-right: 0;
+}
+
+.tull button:hover {
+    /* background: #fff; */
+    color: var(--cherry);
+}
+
+.tull button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 10px;
+    border-radius: 10px;
+    width: 0;
+    background: var(--cherry);
+    transition: 400ms ease all;
+}
+
+.tull button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.tull button:hover:after {
+    width: 100%;
+    transition: 600ms ease all;
+}
+#lodging {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+/*hotel*/
+#hotel {
+    width: 100%;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    padding-top: 8%;
+    cursor: pointer;
+    /* display: flex; */
+}
+#hotel .box {
+    width: 100%;
+    height: 65%;
+    background: white;
+    margin: 0.5%;
+    position: relative;
+    bottom: 10%;
+}
+.box h4 {
+    padding-top: 10px;
+}
+.box1 h4 {
+    padding-top: 10px;
+}
+.box2 h4 {
+    padding-top: 10px;
+}
+.box5 h4 {
+    padding-top: 10px;
+}
+
+#hotel .box5 {
+    width: 100%;
+    height: 65%;
+    background: white;
+    margin: 0.5%;
+    position: relative;
+    bottom: 10%;
+}
+
+#hotel .textbb {
+    display: inline-block;
+    width: 77%;
+    height: 35%;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+}
+
+#hotel .textbb h4 {
+    font-size: 1em;
+}
+
+#hotel .textbb>p {
+    font-size: 0.7em;
+    line-height: 20px;
+}
+
+#hotel .textbb>img.g {
+    width: 20px;
+    height: 20px;
+    /* float: left; */
+    position: absolute;
+    /* padding-right: -20px; */
+    margin-left: -90px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+
+#hotel .textbb>img.h {
+    width: 20px;
+    height: 20px;
+    /* float: left; */
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+
+#hotel .textbb>img.e {
+    width: 20px;
+    height: 20px;
+    /* float: left; */
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+/*이미지 호버*/
+.img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    
+}
+.img-hover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+
+  }
+.box:hover .img-hover {
+    display: block;
+    opacity: 1;
+	-webkit-animation: flash 2s;
+	animation: flash 2s;
+}
+.box5:hover .img-hover {
+    display: block;
+    opacity: 1;
+	-webkit-animation: flash 2s;
+	animation: flash 2s;
+}
+.box1:hover .img-hover {
+    display: block;
+    opacity: 1;
+	-webkit-animation: flash 2s;
+	animation: flash 2s;
+}
+.box2:hover .img-hover {
+    display: block;
+    opacity: 1;
+	-webkit-animation: flash 2s;
+	animation: flash 2s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .9;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/*ryokan*/
+#ryokan {
+    width: 100%;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    padding-top: 8%;
+    /* display: flex; */
+}
+
+#ryokan .box1 {
+    width: 100%;
+    height: 65%;
+    background: white;
+    margin: 0.5%;
+    position: relative;
+    bottom: 10%;
+    cursor: pointer;
+}
+
+
+#ryokan .textbb {
+    display: inline-block;
+    width: 83%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#ryokan .textbb h4 {
+    font-size: 1em;
+}
+
+#ryokan .textbb>p {
+    font-size: 0.7em;
+    line-height: 20px;
+}
+
+#ryokan .textbb>img.g {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 35px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+#ryokan .textbb>img.h {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    /* margin-right: -90px; */
+    margin-left: -80px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+
+#ryokan .textbb>img.e {
+    width: 20px;
+    height: 20px;
+    /* float: left; */
+    position: absolute;
+    margin-left: -95px;
+    /* margin-left: ; */
+    margin-top: 1px;
+    vertical-align: middle;
+}
+
+#ryokan .textbb>img.k {
+    width: 20px;
+    height: 20px;
+    /* float: left; */
+    position: absolute;
+    /* margin-right: -90px; */
+    margin-left: -90px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+
+#ryokan .textbb>img.j {
+    width: 20px;
+    height: 20px;
+    /* float: left; */
+    position: absolute;
+    /* margin-right: -10px; */
+    margin-left: -95px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+/*exotic*/
+#exotic {
+    width: 100%;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    padding-top: 8%;
+    /* display: flex; */
+}
+
+#exotic .box2 {
+    width: 100%;
+    height: 65%;
+    background: white;
+    margin: 0.5%;
+    position: relative;
+    bottom: 10%;
+    cursor: pointer;
+}
+
+#exotic .textbb {
+    display: inline-block;
+    width: 93%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#exotic .textbb h4 {
+    font-size: 1em;
+}
+
+#exotic .textbb>p {
+    font-size: 0.7em;
+    line-height: 20px;
+}
+
+#exotic .textbb>img.u {
+    width: 20px;
+    height: 20px;
+    /* float: left; */
+    position: absolute;
+    /* margin-right: -90px; */
+    margin-left: -65px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+
+#exotic .textbb>img.i {
+    width: 20px;
+    height: 20px;
+    /* float: left; */
+    position: absolute;
+    /* margin-right: -90px; */
+    margin-left: -87px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+#exotic .textbb>img.m {
+    width: 20px;
+    height: 20px;
+    /* float: left; */
+    position: absolute;
+    /* margin-right: -90px; */
+    margin-left: -87px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+
+#exotic .textbb>img.o {
+    width: 20px;
+    height: 20px;
+    /* float: left; */
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+
+
+
+/*page3*/
+#page3 {
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+    background-image: url(../img/backgroundimg3.png);
+    background-size: cover;
+    background-position: center;
+    /* padding-top: 10px; */
+}
+
+.bestlod {
+    float: right;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bestlod .bestttbox {
+    width: 50%;
+    height: 600px;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.bestlod .bestttbox  p {
+    color: #747474;
+    padding-top: 30px;
+    font-size: 1.1em;
+}
+
+.bestlod .bestttbox h2 {
+    font-size: 4.2em;
+}
+
+.bestlod .bestttbox .btn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: var(--lemon);
+    border: 4px solid #B7E5B4;
+    margin: 2%;
+    position: relative;
+    /* left: 10%; */
+    top: 10%;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    color: #747474;
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.2);
+    /* box-shadow: inset 0 0 0 0 #B7E5B4; */
+    transition: ease-out 0.5s;
+    outline: none;
+}
+.bestlod .bestttbox .btn:hover{
+    color: #ffffff;
+    background: var(--mint);
+    border: 4px solid #FFFC9B;
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.2);
+}
+
+.bestlod .review {
+    width: 100%;
+    overflow: hidden;
+    /* display: flex; */
+
+}
+
+.review .slibox {
+    width: 400%;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+/*move*/
+
+.slibox-move {
+    display: flex;
+    width: 600%;
+    animation: move 20s linear alternate infinite;
+
+}
+
+.slibox-move:hover {
+    animation-play-state: paused;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-77%);
+    }
+}
+
+
+
+.bestlod .review .ibox {
+    width: 100%;
+    height: 500px;
+    /* margin: 1%; */
+}
+
+.bestlod .review .ibox img {
+    width: 100%;
+    height: 100%;
+}
+
+/*이미지박스 호버*/
+
+.imagbox {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+.ttbox .txt {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox h4 {
+    font-size: 1em;
+}
+.imagbox:hover .ttbox {
+    opacity: 1;
+}
+
+.imagbox:hover {
+    transform: translateZ(18px);
+}
+
+/*이미지박스1*/
+
+.imagbox1 {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.ttbox1 .txt1 {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox1 h4 {
+    font-size: 1em;
+}
+
+.imagbox1:hover .ttbox1 {
+    opacity: 1;
+}
+
+/*이미지박스2*/
+
+.imagbox2 {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.ttbox2 .txt2 {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox2 h4 {
+    font-size: 1em;
+}
+
+.imagbox2:hover .ttbox2 {
+    opacity: 1;
+}
+
+.imagbox2:hover {
+    transform: translateZ(18px);
+}
+/*이미지박스3*/
+
+.imagbox3 {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.ttbox3 .txt3 {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox3 h4 {
+    font-size: 1em;
+}
+
+.imagbox3:hover .ttbox3 {
+    opacity: 1;
+}
+
+.imagbox3:hover {
+    transform: translateZ(18px);
+}
+/*이미지박스4*/
+.imagbox4 {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.ttbox4 .txt4 {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox4 h4 {
+    font-size: 1em;
+}
+
+.imagbox4:hover .ttbox4 {
+    opacity: 1;
+}
+
+.imagbox4:hover {
+    transform: translateZ(18px);
+}
+/*이미지박스5*/
+.imagbox5 {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.ttbox5 .txt5 {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox5 h4 {
+    font-size: 1em;
+}
+
+.imagbox5:hover .ttbox5 {
+    opacity: 1;
+}
+
+.imagbox5:hover {
+    transform: translateZ(18px);
+}
+}
