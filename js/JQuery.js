@@ -110,9 +110,9 @@ $(function(){
         setInterval(fot_top_slide,6000)
 
 
-        let hover = ["../img/ico_sns1_1.png","../img/ico_sns2_1.png","../img/ico_sns3_1.png","../img/ico_sns4_1.png","../img/ico_sns5_1.png","../img/ico_sns7_1.png","../img/ico_sns9_1.png"]
+        let hover = ["img/ico_sns1_1.png","img/ico_sns2_1.png","img/ico_sns3_1.png","img/ico_sns4_1.png","img/ico_sns5_1.png","img/ico_sns7_1.png","img/ico_sns9_1.png"]
 
-        let hoverout = ["../img/ico_sns1.png","../img/ico_sns2.png","../img/ico_sns3.png","../img/ico_sns4.png","../img/ico_sns5.png","../img/ico_sns7.png","../img/ico_sns9.png"]
+        let hoverout = ["img/ico_sns1.png","img/ico_sns2.png","img/ico_sns3.png","img/ico_sns4.png","img/ico_sns5.png","img/ico_sns7.png","img/ico_sns9.png"]
 
         let idx = 0;
 
