@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #B7E5B4;
+}
+
+/*변수선언*/
+:root {
+    /*Color*/
+    --cherry:#F28585;
+    --orange:#FFA447;
+    --lemon:#FFFC9B;
+    --mint:#B7E5B4;
+
+    /*Font-family*/
+    --noto: 'Noto Sans KR';
+
+    /*Font-weight*/
+    --weight-r: 300;
+    --weight-b: 600;
+
+    /*Font-size*/
+
+    /*Line-height*/
+
+}

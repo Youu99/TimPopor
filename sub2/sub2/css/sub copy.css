@@ -1,0 +1,1236 @@
+
+  /*slider*/
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#slider {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+}
+
+#slider .slider1 {
+    width: 1627px;
+    float: right;
+    height: 850px;
+    position: relative;
+}
+.sliderbox_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#slider .slider1 .slider_tull {
+
+    width: 100%;
+    height: 100%;
+}
+
+.sliderbox_1:nth-of-type(2){
+    display: none;
+}
+.sliderbox_1:nth-of-type(3){
+    display: none;
+}
+.sliderbox_1:nth-of-type(4){
+    display: none;
+}
+#slider .slider1 .textbox button[type=btn] {
+    width: 250px;
+    height: 60px;
+    border: none;
+    background: #FFFC9B;
+    margin: 2%;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #4a4a4a;
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 0 #B7E5B4;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+#slider .slider1 .textbox button[type=btn]:hover{
+    color: white;
+    box-shadow: inset 250px 0 0 0 #B7E5B4;
+}
+#slider .slider1 .textbox .arrow {
+    color: #F28585;
+    position: absolute;
+    bottom: -30px;
+    right: -50px;
+    font-size: 4.5em;
+    font-weight: lighter;
+    /* top: 5%; */
+}
+.sliderbox_1 .textbox h1 {
+    font-size: 7em;
+    text-align: left;
+    color: #090909;
+    padding-bottom: 10%;
+}
+
+#slider .slider1 .textbox p {
+    font-size: 2em;
+    text-align: left;
+    color: #747474;
+    line-height: 60px;
+}
+
+
+#slider .slider1 .textbox {
+    width: 600px;
+    /* background: orchid; */
+    height: 600px;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#slider button[type=btn2] {
+    background: var(--orange);
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    left: 34%;
+    bottom: 0;
+    top: 71%;
+    cursor: pointer;
+    border: none;
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.4);
+}
+
+#slider button span {
+    font-size: 6em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative;
+    /* left: 3%; */
+    /* top: 5%; */
+    bottom: 3%;
+}
+
+#slider .slider1 .slide {
+    width: 1000px;
+    float: right;
+    height: 750px;
+    margin-top: 2%;
+
+}
+
+#slider .slider1 .slide img {
+    width: 100%;
+    height: 100%;
+}
+/*page1*/
+#page1 {
+    width: 1350px;
+    margin: 0 auto;
+    height: 800px;
+    background: rgb(0, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hokkaido {
+    width: 500px;
+    height: 600px;
+    background: white;
+    /* margin: 1%; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+
+
+}
+#hokkaido .icon h4 {
+    font-weight: bold;
+    font-size: 1.15em;
+}
+#hokkaido .icon p {
+    color: #747474;
+}
+/* 
+#hokkimg {
+    width: 700px;
+    height: 700px;
+    background: lavenderblush;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/*애니메이션*/
+:is(.fade1, .fin1, .fin2, .hokkaido_box, .fin3, .fin4, .hokkaido_box2, .fin5, .fin6, .hokkaido_box3, .fin7, .fin8, .hokkaido_box4){
+    animation: fadeInLeft 2s;
+    animation-fill-mode: both;
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+.imgbox {
+    width: 100%;
+    height: 650px;
+    /* margin: 0 auto; */
+    /* background: peru; */
+    margin: 2%;
+    
+}
+/*첫번째*/
+.imgbox .fade1 {
+    position: relative;
+    animation-delay: 0.5s;
+}
+/*하코다테*/
+/*두번째*/
+.imgbox .fin1 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 48%;
+    bottom: 8%;
+    animation-delay: 1.5s;
+}
+/*세번째*/
+.imgbox .fin2 {
+    font-size: 1.2em;
+    position: relative;
+    left: 12%;
+    bottom: 15%;
+    color: #747474;
+    animation-delay: 2.5s;
+}
+/*네번째*/
+.hokkaido_box{
+    width: 170px;
+    height: 320px;
+    position: relative;
+    animation-delay: 3.5s;
+    top: -30%;
+    display: inline-block;
+    margin-right: 70px;
+}
+.box_flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.more {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 15%;
+    /* top: 8%; */
+}
+.tttt{
+    position: relative;
+    /* top: 10%; */
+    left: 5%;
+    font-size: 1.1em;
+}
+.hotel_mini {
+    width: 30px;
+    height: 30px;
+}
+.ryokan_mini{
+    width: 30px;
+    height: 30px;
+}
+.in {
+    display: flex;
+    margin-left: 2%;
+}
+/*삿포로*/
+.imgbox .fin3 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 10%;
+    bottom: 35%;
+    /* bottom: 8%; */
+    animation-delay: 4.5s;
+}
+.imgbox .fin4 {
+    font-size: 1.2em;
+    position: relative;
+    left: 10%;
+    bottom: 50%;
+    color: #747474;
+    animation-delay: 5.5s;
+}
+.hokkaido_box2{
+    width: 170px;
+    height: 320px;
+    position: relative;
+    top: -30%;
+    display: inline-block;
+    margin-right: 70px;
+    animation-delay: 6.5s;
+}
+/*아사히가와*/
+.imgbox .fin5 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 20%;
+    bottom: 60%;
+    animation-delay: 7.5s;
+}
+.imgbox .fin6 {
+    font-size: 1.2em;
+    position: relative;
+    left: 20%;
+    bottom: 60%;
+    color: #747474;
+    animation-delay: 8.5s;
+}
+.hokkaido_box3{
+    width: 170px;
+    height: 320px;
+    position: relative;
+    top: -30%;
+    display: inline-block;
+    margin-right: 10px;
+    animation-delay: 9.5s;
+}
+/*구시로*/
+.imgbox .fin7 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 30%;
+    bottom: 65%;
+    animation-delay: 9.5s;
+}
+.imgbox .fin8 {
+    font-size: 1.2em;
+    position: relative;
+    left: 30%;
+    bottom: 65%;
+    color: #747474;
+    animation-delay: 10.5s;
+}
+.hokkaido_box4{
+    width: 170px;
+    height: 320px;
+    position: relative;
+    top: 10%;
+    display: inline-block;
+    margin-right: 10px;
+    animation-delay: 11.5s;
+}
+
+/*hokkaido_sub*/
+#hokkaido_sub {
+    width: 700px;
+    height: 770px;
+    background: lavenderblush;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+/*hokkaido_sub2*/
+#hokkaido_sub2 {
+    width: 700px;
+    height: 700px;
+    background: lavenderblush;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+/*hokkaido_sub3*/
+#hokkaido_sub3 {
+    width: 700px;
+    height: 700px;
+    background: lavenderblush;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+/*hokkaido_sub4*/
+#hokkaido_sub4 {
+    width: 700px;
+    height: 700px;
+    background: lavenderblush;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.minibox1 {
+    width: 220px;
+    height: 240px;
+    /* background: aqua; */
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    border: 5px solid #FFFC9B;
+}
+.minibox1:hover {
+    /* color: white; */
+    background: #FFFC9B;;
+}
+
+.minibox1 .icon:hover {
+    filter: invert(60%) sepia(65%) saturate(5176%) hue-rotate(321deg) brightness(134%) contrast(98%);
+}
+
+    .minibox1 .icon {
+    text-align: center;
+}
+.minibox1 .icon img {
+    width: 90px;
+    height: 90px;
+    /* paddin-bottom: 10px; */
+}
+.minibox1 .icon .ryokan {
+    width: 25px;
+    height: 25px;
+
+}
+/*minibox2*/
+.minibox2 {
+    width: 220px;
+    height: 240px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    border: 5px solid #FFFC9B;
+}
+.minibox2:hover {
+    /* color: white; */
+    background: #FFFC9B;;
+}
+
+.minibox2 .icon:hover {
+    filter: invert(60%) sepia(65%) saturate(5176%) hue-rotate(321deg) brightness(134%) contrast(98%);
+}
+.minibox2 .icon {
+    text-align: center;
+}
+.minibox2 .icon img {
+    width: 90px;
+    height: 90px;
+    /* paddin-bottom: 10px; */
+}
+.minibox2 .icon .ryokan {
+    width: 25px;
+    height: 25px;
+
+}
+/*minibox3*/
+.minibox3 {
+    width: 220px;
+    height: 240px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    border: 5px solid #FFFC9B;
+}
+.minibox3:hover {
+    /* color: white; */
+    background: #FFFC9B;;
+}
+
+.minibox3 .icon:hover {
+    filter: invert(60%) sepia(65%) saturate(5176%) hue-rotate(321deg) brightness(134%) contrast(98%);
+}
+.minibox3 .icon {
+    text-align: center;   
+}
+.minibox3 .icon img {
+    width: 90px;
+    height: 90px;
+    
+    /* paddin-bottom: 10px; */
+}
+.minibox3 .icon .ryokan {
+    width: 25px;
+    height: 25px;
+
+}
+/*minibox4*/
+.minibox4 {
+    width: 220px;
+    height: 240px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    border: 5px solid #FFFC9B;
+}
+.minibox4:hover {
+    /* color: white; */
+    background: #FFFC9B;;
+}
+
+.minibox4 .icon:hover {
+    filter: invert(60%) sepia(65%) saturate(5176%) hue-rotate(321deg) brightness(134%) contrast(98%);
+}
+.minibox4 .icon {
+    text-align: center;
+}
+.minibox4 .icon img {
+    width: 90px;
+    height: 90px;
+    /* paddin-bottom: 10px; */
+}
+.minibox4 .icon .ryokan {
+    width: 25px;
+    height: 25px;
+
+}
+
+/*page2*/
+#page2 {
+    width: 1350px;
+    margin: 0 auto;
+    height: 800px;
+    background: rgb(255, 251, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lodging {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(110, 168, 255);
+    line-height: 40px;
+
+}
+
+.tull {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    /* margin-top: 40px; */
+}
+
+.tull>.tull button {
+    display: inline-block;
+}
+
+.tull button {
+    all: unset;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 90px;
+}
+
+.tull button {
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.tull button:last-child {
+    margin-right: 0;
+}
+
+.tull button:hover {
+    /* background: #fff; */
+    color: white;
+}
+
+.tull button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 7px;
+    border-radius: 10px;
+    width: 0;
+    background: #B7E5B4;
+    transition: 400ms ease all;
+}
+
+.tull button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.tull button:hover:after {
+    width: 100%;
+    transition: 600ms ease all;
+}
+/*hotel*/
+#hotel {
+    width: 100%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    padding-top: 8%;
+    cursor: pointer;
+    /* display: flex; */
+}
+#hotel .box {
+    width: 100%;
+    height: 350px;
+    background: white;
+    margin: 2%;
+    position: relative;
+    bottom: 10%;
+}
+
+#hotel .box5 {
+    width: 100%;
+    height: 350px;
+    background: white;
+    margin: 2%;
+    position: relative;
+    bottom: 10%;
+}
+
+#hotel .textbb {
+    display: inline-block;
+    width: 100%;
+    height: 35%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#hotel .textbb h4 {
+    font-size: 1.1em;
+}
+
+#hotel .textbb>p {
+    font-size: 0.8em;
+    line-height: 30px;
+}
+
+#hotel .textbb>img.g {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 35px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+#hotel .textbb>img.h {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 45px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+#hotel .textbb>img.e {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 20px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+/*이미지 호버*/
+.img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    
+}
+.img-hover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+
+  }
+.box:hover .img-hover {
+    display: block;
+    opacity: 1;
+	-webkit-animation: flash 2s;
+	animation: flash 2s;
+}
+.box5:hover .img-hover {
+    display: block;
+    opacity: 1;
+	-webkit-animation: flash 2s;
+	animation: flash 2s;
+}
+.box1:hover .img-hover {
+    display: block;
+    opacity: 1;
+	-webkit-animation: flash 2s;
+	animation: flash 2s;
+}
+.box2:hover .img-hover {
+    display: block;
+    opacity: 1;
+	-webkit-animation: flash 2s;
+	animation: flash 2s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .9;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/*ryokan*/
+#ryokan {
+    width: 100%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    padding-top: 8%;
+    /* display: flex; */
+}
+
+#ryokan .box1 {
+    width: 100%;
+    height: 350px;
+    background: white;
+    margin: 2%;
+    position: relative;
+    bottom: 10%;
+    cursor: pointer;
+}
+
+
+#ryokan .textbb {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#ryokan .textbb h4 {
+    font-size: 1.1em;
+}
+
+#ryokan .textbb>p {
+    font-size: 0.8em;
+    line-height: 30px;
+}
+
+#ryokan .textbb>img.g {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 35px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+#ryokan .textbb>img.h {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 45px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+#ryokan .textbb>img.e {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 20px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+#ryokan .textbb>img.k {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 30px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+#ryokan .textbb>img.j {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 10px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+/*exotic*/
+#exotic {
+    width: 100%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    padding-top: 8%;
+    /* display: flex; */
+}
+
+#exotic .box2 {
+    width: 100%;
+    height: 350px;
+    background: white;
+    margin: 2%;
+    position: relative;
+    bottom: 10%;
+    cursor: pointer;
+}
+
+#exotic .textbb {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#exotic .textbb h4 {
+    font-size: 1.1em;
+}
+
+#exotic .textbb>p {
+    font-size: 0.8em;
+    line-height: 30px;
+}
+
+#exotic .textbb>img.u {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 60px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+#exotic .textbb>img.i {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 30px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+#exotic .textbb>img.j {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 60px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+#exotic .textbb>img.m {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 35px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+#exotic .textbb>img.o {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: -90px;
+    margin-left: 10px;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+
+
+/*page3*/
+#page3 {
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.bestlod {
+    float: right;
+    width: 1627px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bestlod .bestttbox {
+    width: 400px;
+    height: 600px;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bestlod .bestttbox h2 {
+    font-size: 3em;
+}
+
+.bestlod .bestttbox button[type=btn] {
+    width: 150px;
+    height: 45px;
+}
+
+.bestlod .review {
+    width: 1200px;
+    height: 600px;
+    overflow: hidden;
+    /* display: flex; */
+
+}
+
+.review .slibox {
+    width: 220%;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+/*move*/
+
+.slibox-move {
+    display: flex;
+    width: 100%;
+    animation: move 20s linear infinite;
+
+}
+
+.slibox-move:hover {
+    animation-play-state: paused;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+
+.bestlod .review .ibox {
+    width: 100%;
+    height: 500px;
+    background: lemonchiffon;
+    margin: 1%;
+}
+
+.bestlod .review .ibox img {
+    width: 100%;
+    height: 100%;
+}
+
+/*이미지박스 호버*/
+
+.imagbox {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+.ttbox .txt {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox h4 {
+    font-size: 1.1em;
+}
+.imagbox:hover .ttbox {
+    opacity: 1;
+}
+
+.imagbox:hover {
+    transform: translateZ(18px);
+}
+
+/*이미지박스1*/
+
+.imagbox1 {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.ttbox1 .txt1 {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox1 h4 {
+    font-size: 1.1em;
+}
+
+.imagbox1:hover .ttbox1 {
+    opacity: 1;
+}
+
+/*이미지박스2*/
+
+.imagbox2 {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.ttbox2 .txt2 {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox2 h4 {
+    font-size: 1.1em;
+}
+
+.imagbox2:hover .ttbox2 {
+    opacity: 1;
+}
+
+.imagbox2:hover {
+    transform: translateZ(18px);
+}
+/*이미지박스3*/
+
+.imagbox3 {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.ttbox3 .txt3 {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox3 h4 {
+    font-size: 1.1em;
+}
+
+.imagbox3:hover .ttbox3 {
+    opacity: 1;
+}
+
+.imagbox3:hover {
+    transform: translateZ(18px);
+}
+/*이미지박스4*/
+.imagbox4 {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.ttbox4 .txt4 {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox4 h4 {
+    font-size: 1.1em;
+}
+
+.imagbox4:hover .ttbox4 {
+    opacity: 1;
+}
+
+.imagbox4:hover {
+    transform: translateZ(18px);
+}
+/*이미지박스5*/
+.imagbox5 {
+    width: 386px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.ttbox5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.ttbox5 .txt5 {
+    margin: 5%;
+    position: relative;
+    top: 30%;
+    line-height: 35px;
+}
+
+.ttbox5 h4 {
+    font-size: 1.1em;
+}
+
+.imagbox5:hover .ttbox5 {
+    opacity: 1;
+}
+
+.imagbox5:hover {
+    transform: translateZ(18px);
+}
