@@ -20,11 +20,11 @@ $(function(){
     function prev(){
         $(".banner_main_slider li:last").prependTo(".banner_main_slider");
         $(".banner_main_slider").css({marginLeft:"-33.3%"});
-        $(".banner_main_slider").stop().animate({marginLeft:0},400)
+        $(".banner_main_slider").stop().animate({marginLeft:0},1000)
     }
     
     function next(){
-        $(".banner_main_slider").stop().animate({marginLeft:"-33.3%"},400,function(){
+        $(".banner_main_slider").stop().animate({marginLeft:"-33.3%"},1000,function(){
             $(".banner_main_slider li:first").appendTo(".banner_main_slider");
             $(".banner_main_slider").css({marginLeft:0});
         })
@@ -54,17 +54,12 @@ $(function(){
 
     $(".story_menu li").click(function(){
         let idx = $(this).index()/2
-        $(".story_menu li").removeClass('choice');
-        $(this).addClass('choice');
-       $(".story_full_box").eq(idx).fadeIn().siblings('.story_full_box').fadeOut();   
-        
+       $(".story_full_box").eq(idx).fadeIn().siblings('.story_full_box').fadeOut();      
     })
 
  
     $("#region_menu_box li").click(function(){
         let idx = $(this).index();
-        $("#region_menu_box li").removeClass("choice2");
-        $(this).addClass("choice2");
         $(".story_img_box2").eq(idx).fadeIn().css("display","flex").siblings('.story_img_box2').fadeOut();        
     })
     
@@ -140,9 +135,9 @@ $(function(){
 
     })
 
-    // 팝업창
+     // 팝업창
 
-    $(function(){
+     $(function(){
         
         $('#pop_icon1').click(function(){
             $(".pop_sub1").slideToggle()
@@ -170,6 +165,7 @@ $(function(){
         })
        
       })
+
 
 
     

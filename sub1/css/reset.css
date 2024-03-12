@@ -1676,6 +1676,12 @@ align-items: center;}
             font-weight: bold;
         
         }
+
+        .top_nav>li:hover>a,.top_nav>li a.active{
+            color: black;
+            font-weight: bold;
+        
+        }
         
         .top_nav>li:nth-of-type(5) {
             width: 130%;

@@ -2193,6 +2193,12 @@
         z-index: 100;
     
     }
+
+    .top_nav>li:hover>a,.top_nav>li a.active{
+        color: black;
+        font-weight: bold;
+    
+    }
     
     #main_nav {
         width: 100%;
