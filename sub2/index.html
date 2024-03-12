@@ -35,7 +35,7 @@
                 <nav id="main_nav_tab">
                     <div id="nav_img_box"><img src="img/rogo.png" alt="img"></div>
                     <ul class="top_nav">
-                        <li><a href="index.html">홈</a></li>
+                        <li><a class="active" href="index.html">홈</a></li>
                         <li><a href="sub2/sub3.html">호텔</a></li>
                         <li><a href="sub3/mine.html">지역</a></li>
                         <li><a href="sub1/menu.html">리뷰콕콕</a>
@@ -63,13 +63,60 @@
                     <div id="nav_img_box2">
                         <a href="#"><img src="img/btn_header_search01.png" alt="돋보기"></a>
                         <a href="#"><img src="img/icon_header_profile1.png" alt="내정보"></a>
+                        <div class="row cf">
+                            <div class="three col">
+                              <div class="hamburger" id="hamburger-1">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                              </div>
+                            </div>
                     </div>
                 </nav>
                 <div id="sub_nav_box"></div>
             </div>
 
+          
+
 
         </header>
+
+        <!-- 팝업창 -->
+
+        <div id="pop_box">
+            <!-- <img src="img/rogo.png" alt=""> -->
+            
+            <img src="img/icon_special_box2.png" alt="icon" id="pop_icon1">
+            <img src="img/icon_special_box2.png" alt="icon" id="pop_icon2">
+           
+
+            <ul id="sub_top_nav">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="sub2/sub3.html">호텔</a></li>
+                <li><a href="sub3/mine.html">지역</a></li>
+                <li ><a href="sub1/menu.html">리뷰콕콕</a>
+                    <ul class="pop_sub1">
+                        <li><a href="sub1/menu.html">AI콕콕</a></li>
+                        <li><a href="sub1/menu.html">핫플콕콕</a></li>
+                        <li><a href="sub1/menu.html">AI콕콕 플래너</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">여행상품 홍보관</a></li>
+                <li ><a href="sub3/mine.html">여행정보</a>
+                    <ul class="pop_sub2">
+                        <li><a href="sub3/mine.html">여행지</a></li>
+                        <li><a href="sub3/mine.html">여행기사</a></li>
+                        <li><a href="sub3/mine.html">여행코스</a></li>
+                        <li><a href="sub3/mine.html">축제</a></li>
+                        <li><a href="sub3/mine.html">공연/행사</a></li>
+                        <li><a href="sub3/mine.html">이벤트</a></li>
+                        <li><a href="sub3/mine.html">가볼래-터</a></li>
+                        <li><a href="sub3/mine.html">디지털관광주민증</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">여행지도</a></li>
+            </ul>
+        </div>
 
         <!-- 메인 비디오 -->
 
@@ -191,7 +238,7 @@
             <div id="story_banner"><img src="img/tit_curation_area.png" alt="banner"></div>
             
             <ul class="story_menu">
-                <li><a href="#" class="story_menu_box"></a>여행 콕콕</li>
+                <li class="choice"><a href="#" class="story_menu_box"></a>여행 콕콕</li>
                 <li>|</li>
                 <li><a href="#" class="story_menu_box"></a>호텔 콕콕</li>
                 <li>|</li>
@@ -236,7 +283,7 @@
 
 
                 <ul id="region_menu_box">
-                    <li>간토</li>
+                    <li class="choice2">간토</li>
                     <li>규슈</li>
                     <li>간사이</li>
                     <li>훗카이도</li>

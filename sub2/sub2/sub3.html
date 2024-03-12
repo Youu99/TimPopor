@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sub</title>
+    <title>숙소 정보</title>
     <link rel="stylesheet" href="css/sub.css" type="text/css">
     <link rel="stylesheet" href="css/sub(1359px-1000px).css" type="text/css">
     <link rel="stylesheet" href="css/sub(999px-765px).css" type="text/css">
@@ -33,7 +33,7 @@
                 </div>
                 <ul class="top_nav">
                     <li><a href="../index.html">홈</a></li>
-                    <li><a href="sub3.html">호텔</a></li>
+                    <li><a href="sub3.html" class="active">호텔</a></li>
                     <li><a href="../sub3/mine.html">지역</a></li>
                     <li><a href="../sub1/menu.html">리뷰콕콕</a>
                         <ul class="sub_nav">
@@ -60,17 +60,63 @@
                   
                 </ul>
                 <div id="nav_img_box2">
-                    <a href="#"><img src="icon/btn_header_search01.png" alt="돋보기"></a>
-                    <a href="#"><img src="icon/icon_header_profile1.png" alt="내정보"></a>
+                    <a href="#"><img src="img/btn_header_search01.png" alt="돋보기"></a>
+                    <a href="#"><img src="img/icon_header_profile1.png" alt="내정보"></a>
+                    <div class="row cf">
+                        <div class="three col">
+                          <div class="hamburger" id="hamburger-1">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                          </div>
+                        </div>
                 </div>
             </nav>
-            <div id="sub_nav_box">
-
-            </div>
+            <div id="sub_nav_box"></div>
         </div>
+
+      
 
 
     </header>
+
+    <!-- 팝업창 -->
+
+    <div id="pop_box">
+        <!-- <img src="img/rogo.png" alt=""> -->
+        
+        <img src="../img/icon_special_box2.png" alt="icon" id="pop_icon1">
+        <img src="../img/icon_special_box2.png" alt="icon" id="pop_icon2">
+       
+
+        <ul id="sub_top_nav">
+            <li><a href="index.html">홈</a></li>
+            <li><a href="sub2/sub3.html">호텔</a></li>
+            <li><a href="sub3/mine.html">지역</a></li>
+            <li ><a href="sub1/menu.html">리뷰콕콕</a>
+                <ul class="pop_sub1">
+                    <li><a href="sub1/menu.html">AI콕콕</a></li>
+                    <li><a href="sub1/menu.html">핫플콕콕</a></li>
+                    <li><a href="sub1/menu.html">AI콕콕 플래너</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html">여행상품 홍보관</a></li>
+            <li ><a href="sub3/mine.html">여행정보</a>
+                <ul class="pop_sub2">
+                    <li><a href="sub3/mine.html">여행지</a></li>
+                    <li><a href="sub3/mine.html">여행기사</a></li>
+                    <li><a href="sub3/mine.html">여행코스</a></li>
+                    <li><a href="sub3/mine.html">축제</a></li>
+                    <li><a href="sub3/mine.html">공연/행사</a></li>
+                    <li><a href="sub3/mine.html">이벤트</a></li>
+                    <li><a href="sub3/mine.html">가볼래-터</a></li>
+                    <li><a href="sub3/mine.html">디지털관광주민증</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html">여행지도</a></li>
+        </ul>
+    </div>
+
 
 
 
@@ -134,7 +180,6 @@
             <div id="hokkaido">
                 <div class="minibox1">
                     <div class="icon">
-
                         <img src="icon/hokkaido.png" alt="홋카이도지도">
                         <h4>홋카이도</h4><br>
                         <img src="icon/hotel.png" alt="호텔" class="ryokan" style="margin-bottom: -3px;">
@@ -352,7 +397,7 @@
                     <div class="gan5">
                         <div class="box_flex">
                             <img src="img/도톤보리.png" alt="도톤보리" style="width: 120px; height: 120px;"><br>
-                            <img src="icon/more2_.png" class="dot" alt="more">><br>
+                            <img src="icon/more2_.png" class="dot" alt="more"><br>
                             <h5 class="tttt2">도톤보리 인근</h5><br>
                             <div class="in">
                                 <img src="icon/hotel.png" class="hotel_mini1" alt="hotel">
@@ -366,7 +411,7 @@
                     <div class="gan6">
                         <div class="box_flex">
                             <img src="img/비와호.png" alt="비와호" style="width: 120px; height: 120px;"><br>
-                            <img src="icon/more3.png" class="dot" alt="more">><br>
+                            <img src="icon/more3.png" class="dot" alt="more"><br>
                             <h5 class="tttt2">비와호 인근</h5><br>
                             <div class="in">
                                 <img src="icon/hotel.png" class="hotel_mini1" alt="hotel">
@@ -380,7 +425,7 @@
                     <div class="gan7">
                         <div class="box_flex">
                             <img src="img/기요미즈데라.png" alt="기요미즈데라" style="width: 120px; height: 120px;"><br>
-                            <img src="icon/more2_.png" class="dot" alt="more">><br>
+                            <img src="icon/more2_.png" class="dot" alt="more"><br>
                             <h5 class="tttt2">기요미즈데라 인근</h5><br>
                             <div class="in">
                                 <img src="icon/hotel.png" class="hotel_mini1" alt="hotel">
@@ -394,7 +439,7 @@
                     <div class="gan8">
                         <div class="box_flex">
                             <img src="img/고베하버랜드.png" alt="고베 하버랜드" style="width: 120px; height: 120px;"><br>
-                            <img src="icon/more3.png" class="dot" alt="more">><br>
+                            <img src="icon/more3.png" class="dot" alt="more"><br>
                             <h5 class="tttt2">고베 하버랜드 인근</h5><br>
                             <div class="in">
                                 <img src="icon/hotel.png" class="hotel_mini1" alt="hotel">
@@ -1084,7 +1129,7 @@
         </div>
 
         <div id="footer_bottom2">
-            <span><img src="/img/rogo.png" alt="logo" id="footer_imgrogo"></span>
+            <span><img src="img/rogo.png" alt="logo" id="footer_imgrogo"></span>
 
             <ul>
                 <li><img src="img/logo_foot_api.png" alt="footerImg"></li>
@@ -1116,6 +1161,8 @@
 
                 $(".minibox1").click(function () {
 
+                    $("#hokkaido> div").removeClass("bg");
+                    $(this).addClass("bg");
                     $("#hokkaido_sub").show();
 
                     $("#hokkaido_sub2").hide();
@@ -1128,6 +1175,8 @@
                 });
 
                 $(".minibox2").click(function () {
+                    $("#hokkaido> div").removeClass("bg");
+                    $(this).addClass("bg");
 
                     $("#hokkaido_sub2").show();
 
@@ -1140,6 +1189,8 @@
                 });
 
                 $(".minibox3").click(function () {
+                    $("#hokkaido> div").removeClass("bg");
+                    $(this).addClass("bg");
 
                     $("#hokkaido_sub3").show();
 
@@ -1152,6 +1203,8 @@
                 });
 
                 $(".minibox4").click(function () {
+                    $("#hokkaido> div").removeClass("bg");
+                    $(this).addClass("bg");
 
                     $("#hokkaido_sub4").show();
 
@@ -1176,6 +1229,8 @@
 
             $(".font1").click(function () {
 
+                $(".tull> button").removeClass("co");
+                $(this).addClass("co");
                 $("#hotel").show();
 
                 $("#ryokan").hide();
@@ -1186,6 +1241,9 @@
 
             $(".font2").click(function () {
 
+                $(".tull> button").removeClass("co");
+                $(this).addClass("co");
+
                 $("#ryokan").show();
 
                 $("#hotel").hide();
@@ -1195,6 +1253,9 @@
             });
 
             $(".font3").click(function () {
+
+                $(".tull> button").removeClass("co");
+                $(this).addClass("co");
 
                 $("#exotic").show();
 
