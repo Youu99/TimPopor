@@ -1,0 +1,130 @@
+/* 마우스 커서 무브 */
+
+ body {
+    cursor: none;
+}
+
+.circle {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    opacity: 0.6;
+    transform: translate(-50%, 10%);
+    z-index: 100;
+} 
+
+
+/* 네비게이션 */
+
+header {
+    z-index: 10;
+    position: sticky;
+    top: 0;
+
+}
+
+#main_nav {
+    width: 100%;
+    height: 95px;
+    background-color: white;
+}
+
+#main_nav_tab {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#nav_img_box {
+    width: 20%;
+    background-color: aqua;
+}
+
+.top_nav {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 40px;
+}
+
+.top_nav>li {
+    float: left;
+    text-align: left;
+    width: 100%;
+    font-size: 19px;
+    line-height: 80px;
+}
+
+.top_nav>li a {
+    color: #666;
+}
+
+.top_nav>li:hover>a {
+    color: black;
+    font-weight: bold;
+
+}
+
+.top_nav>li:nth-of-type(5) {
+    width: 130%;
+    margin-right: 20px;
+}
+
+
+#nav_img_box2 {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    padding-bottom: 5px;
+}
+
+#nav_img_box2 a {
+    margin: 0px 5px;
+    transform: scale(1.0);
+}
+
+#nav_img_box2 a:hover {
+    transform: scale(1.1);
+}
+
+
+/* 네비게이션 아래 박스 */
+
+#sub_nav_box {
+    background-color: #ddd;
+    height: 400px;
+    display: none;
+}
+
+.sub_nav li a {
+    color: #666;
+
+}
+
+.sub_nav {
+    height: 400px;
+    display: none;
+    z-index: 10;
+}
+
+.sub_nav>li {
+    font-size: 16px;
+    line-height: 40px;
+    padding-top: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.sub_nav>li:nth-of-type(8) {
+    width: 120%;
+}
+
+.sub_nav li:hover a {
+    font-weight: bold;
+    color: black;
+}
