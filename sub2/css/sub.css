@@ -163,7 +163,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 5%;
-
+    position: relative;
+    z-index: 5;
 
 }
 #hokkaido .icon h4 {
@@ -421,16 +422,16 @@
     text-align: center;
     border: 5px solid #FFFC9B;
 }
-.minibox1:hover {
-    /* color: white; */
-    background: #FFFC9B;;
+
+#hokkaido> div:hover, #hokkaido> div.bg {
+    background: #FFFC9B;
 }
 
 .minibox1 .icon:hover {
     filter: invert(60%) sepia(65%) saturate(5176%) hue-rotate(321deg) brightness(134%) contrast(98%);
 }
 
-    .minibox1 .icon {
+.minibox1 .icon {
     text-align: center;
 }
 .minibox1 .icon img {
@@ -1217,12 +1218,12 @@
     margin-right: 0;
 }
 
-.tull button:hover {
+.tull> button:hover, .tull> button.co{
     /* background: #fff; */
     color: var(--cherry);
 }
 
-.tull button:after {
+.tull button:after {s
     content: "";
     position: absolute;
     top: 0;

@@ -421,9 +421,8 @@
     line-height: 20px;
     border: 5px solid #FFFC9B;
 }
-.minibox1:hover {
-    /* color: white; */
-    background: #FFFC9B;;
+#hokkaido> div:hover, #hokkaido> div.bg {
+    background: #FFFC9B;
 }
 
 .minibox1 .icon:hover {
@@ -1493,6 +1492,10 @@
     margin-left: -110px;
     margin-top: 1px;
     vertical-align: middle;
+}
+.tull> button:hover, .tull> button.co{
+    /* background: #fff; */
+    color: var(--cherry);
 }
 /*exotic*/
 #exotic {

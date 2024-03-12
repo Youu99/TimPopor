@@ -81,7 +81,7 @@ header {
     color: #666;
 }
 
-.top_nav>li:hover>a {
+.top_nav>li:hover>a,.top_nav>li a.active{
     color: black;
     font-weight: bold;
 
@@ -96,7 +96,7 @@ header {
 #nav_img_box2 {
     display: flex;
     align-items: center;
-    width: 7%;
+    width: 10%;
     padding-bottom: 5px;
 }
 
@@ -147,6 +147,21 @@ header {
 }
 
 
+   /* 팝업창 */
+   #pop_box{
+    width: 100%;
+    height: 1000px;
+    background-color: #f7f7f7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+    display: none;
+}
+
+
+
 /* 메인 비디오 */
 
 #main_video {
@@ -166,6 +181,7 @@ header {
 
 }
 
+   
 /* 메인 슬라이드 */
 
 
@@ -496,8 +512,9 @@ header {
     color: white;
 }
 
-.story_menu>li:hover {
+.story_menu>li:hover, .story_menu>li.choice {
     cursor: pointer;
+    color: #333;
 }
 
 
@@ -648,6 +665,11 @@ header {
     color: #666;
     cursor: pointer;
 
+}
+
+#region_menu_box li:hover, #region_menu_box>li.choice2{
+    cursor: pointer;
+    color: #b0eed5;
 }
 
 .story_img_box2 {
@@ -1070,5 +1092,7 @@ justify-content: center; align-items: center; border-bottom: 1px solid #ddd;}
 
 
 #footer_bottom2 #footer_imgrogo{width: 25%; height: 50%; padding-top: 5px;padding-left: 20px; }
+
+
 
 

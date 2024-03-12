@@ -54,12 +54,17 @@ $(function(){
 
     $(".story_menu li").click(function(){
         let idx = $(this).index()/2
-       $(".story_full_box").eq(idx).fadeIn().siblings('.story_full_box').fadeOut();      
+        $(".story_menu li").removeClass('choice');
+        $(this).addClass('choice');
+       $(".story_full_box").eq(idx).fadeIn().siblings('.story_full_box').fadeOut();   
+        
     })
 
  
     $("#region_menu_box li").click(function(){
         let idx = $(this).index();
+        $("#region_menu_box li").removeClass("choice2");
+        $(this).addClass("choice2");
         $(".story_img_box2").eq(idx).fadeIn().css("display","flex").siblings('.story_img_box2').fadeOut();        
     })
     
@@ -134,6 +139,37 @@ $(function(){
         }
 
     })
+
+    // 팝업창
+
+    $(function(){
+        
+        $('#pop_icon1').click(function(){
+            $(".pop_sub1").slideToggle()
+        })
+        $('#pop_icon2').click(function(){
+            $(".pop_sub2").slideToggle()
+        })
+
+    })
+
+
+    // 햄버거
+
+    $(document).ready(function(){
+        $(".hamburger").click(function(){
+          $(this).toggleClass("is-active");
+        });
+      });
+
+      $(function(){
+        $(".hamburger").click(function(){
+            $("#pop_box").slideToggle()
+            $("#main_nav").css("background-color","#f7f7f7")
+           
+        })
+       
+      })
 
 
     
